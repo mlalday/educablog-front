@@ -1,0 +1,80 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #110a1f;
+    background-blend-mode: darken;
+    min-height: 100vh;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 55px;
+    align-items: center;
+    justify-content: center;
+    background-color: inherit;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#372065 ;
+    border-radius: 10px;
+    width: 60vw;
+    height: 40vh;
+    margin: 0% auto;
+    margin-bottom: 10px;
+}
+
+.text{
+    color: #e7e1ee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.text-alt{
+    color: rgb(231, 225, 238);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    text-decoration: underline rgb(170, 110, 244);
+}
+
+.text-alt:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+.input-text{
+    width: 40%;
+    background-color: rgb(228, 220, 237);
+    padding: 5px;
+    margin: 0% auto;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: rgb(119, 111, 137) 2px solid;
+    color: rgb(43, 14, 66);
+    margin-top: 10px;
+}
+
+.button-submit{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color:rgb(55, 32, 100) ;
+    background-color: #dcc9f2;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 40%;
+    border: rgb(255, 255, 255) 2px solid;
+}
+
+.button-submit:hover{
+    background-color: rgb(35, 20, 62)  ;
+    color: white
+}

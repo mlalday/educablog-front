@@ -1,3 +1,4 @@
+import { redirect } from "next/dist/server/api-utils";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -14,7 +15,24 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    fontFamily: { 
+      sans: ["Verdana", "Arial"]
+    },
+
+    colors: {
+      background: { 
+        500: '#dcc9f2',
+        800:'#372065',
+        900: '#110a1f'
+      },
+    fontColor:{
+      200: '#110a1f',
+      800: 'white',
+      900: '#e7e1ee'
+    }
+  }
   },
   plugins: [],
 };
-export default config;
+
+export default config
